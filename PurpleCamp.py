@@ -19,8 +19,8 @@ print("Nice to meet you ", name, "\n")
 
 #Ask for your age
 age = input("How old are you? \n")
-print(f"WOW are you already learning Python at your age?, you are ", age, "\n")
-print(f"THAT IS AWESOME!! \n")
+print("WOW are you already learning Python at your age?, you are ", age, "\n")
+print("THAT IS AWESOME!! \n")
 
 #Ask for what to do
 print("What should we do? \n")
@@ -47,34 +47,34 @@ if whatToDo == "A":
         print("I'm sorry, hopefully you will enjoy it at the end.\n")
 
 elif whatToDo == "B":
-    print("Alright you've selected to do some Math!!")
-    operation = input("What do you wish to do? A. Addition B. Substraction")
+    #Calculator
+    print("Alright you've selected to do some Math!!\n")
+    operation = input("What do you wish to do? A. Addition B. Substraction\n")
 
     if operation == "A":
         print("Allright let's add some numbers.")
-        add1 = input("Enter the first number: \n")
-        print(add1)
-        add2 = input("Enter the second number: \n")
-        print(add2)
+        add1 = int(input("Enter the first number: \n"))
+        print("Number selected", add1)
+        add2 = int(input("Enter the second number: \n"))
+        print("Number selected", add2)
         print("Alright let's add ", add1, "and ", add2, ".\n")
-        addition = float
+        addition = int
 
         addition = add1 + add2
         print(addition)
 
     elif operation == "B":
         print("Allright let's substract some numbers.")
-        sub1 = input("Enter the first number: \n")
-        print(sub1)
-        sub2 = input("Enter the second number: \n")
-        print(sub2)
-        print("Alright let's add ", sub1, "and ", sub2, ".\n")
-        addition = float
+        sub1 = int(input("Enter the first number: \n"))
+        print("Number selected", sub1)
+        sub2 = int(input("Enter the second number: \n"))
+        print("Number selected", sub2)
+        print("Alright let's substract ", sub1, "and ", sub2, ".\n")
+        substraction = int
 
-        substraction = sub1 - sub2
+        substraction = sub1 + sub2
         print(substraction)
 
-
-
-
-
+#Farewell
+print(f"All right time to go. It was wonderfull to talk with you! Have a nice day.\n")
+print(f"BOB SHUTTING DOWN...")
