@@ -72,7 +72,7 @@ elif whatToDo == "B":
         print("Alright let's substract ", sub1, "and ", sub2, ".\n")
         substraction = int
 
-        substraction = sub1 + sub2
+        substraction = sub1 - sub2
         print(substraction)
 
 #Farewell
