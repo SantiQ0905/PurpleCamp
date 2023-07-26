@@ -9,3 +9,14 @@ if variables == "Los ifs tienen que llevar un formato condicional, si esto, lueg
 else:
     print("De lo contrario ponemos la otra opción que queremos que se ejecute.")
 
+
+
+
+
+
+
+
+
+
+
+
